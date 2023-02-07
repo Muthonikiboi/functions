@@ -1,0 +1,21 @@
+//A COMPANY
+const company={
+    manager:"Zaki Kiboi",
+    EmployeeNo:2569,
+    EmployeeSalary:"Depends on department",
+    vacancies:260,
+}
+function kampuni()
+{
+    const string=`The manager is ${this.manager}.The company's emlployee number is ${this.EmployeeNo} and the salary ${this.EmployeeSalary}.There are ${this.vacancies} in the company.`
+    console.log(string);
+}
+kampuni.call(company);
+
+//product
+function product(a,s,d)
+{
+    return a*s*d;
+}
+var result=product.call(this,34,89,45);
+console.log("The product is:"+result);
