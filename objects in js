@@ -1,0 +1,28 @@
+//literal
+act={
+      name:"Joy Kiboi",
+      school:"DEKUT",
+      RegNo:"C025-01-0909/2021",
+      signature:"NULL",
+
+}
+console.log(act.name+" "+act.school+" "+act.RegNo+" "+act.signature);
+
+//new keyword
+const play=new Object;
+    play.fullname="ZAKI KIBOI";
+    play.contact=0712345676;
+    play.lastname="EMMANUEL MOKOMBA";
+    play.cont=0764521445;
+console.log(play.fullname+"     "+play.contact+"     "+play.lastname+"      "+play.cont);
+
+//using constuctors
+function school(schName,schAddress,schLocation,schPopulation,schCapacity){
+    school.schName=schName;
+    school.schAddress=schAddress;
+    school.schLocation=schLocation;
+    school.schPopulation=schPopulation;
+    school.schCapacity=schCapacity;
+}
+let skul=new school("Dedan Kimathi University of Technology","P.O. BOX 10106-254","Mathari",10.000,20,000);
+console.log(school.schName+" "+school.schAddress+" "+school.schLocation+" "+school.schPopulation+" "+school.schCapacity);
